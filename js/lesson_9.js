@@ -32,8 +32,8 @@ console.log(2 * 4 === 8)    //Вывод будет truе
 
  console.log(isChecked && isClosed); //Вернет false потому что оператор "И"
 
- const x = true;
- const y = false;
+//  const x = true;
+//  const y = false;
 
  console.log(x || y);   //Вернет true ибо оператор "ИЛИ"
 
