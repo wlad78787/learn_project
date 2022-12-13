@@ -36,3 +36,8 @@ console.log(2 * 4 === 8)    //Вывод будет truе
  const y = false;
 
  console.log(x || y);   //Вернет true ибо оператор "ИЛИ"
+
+const z = false;
+const t = false;
+
+console.log(z || !t)   //Вернет true ибо оператор отрицания "!" делает из t то есть из false - true
